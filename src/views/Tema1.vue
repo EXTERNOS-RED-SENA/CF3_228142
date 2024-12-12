@@ -21,14 +21,14 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .titulovi.mb-4
-          h5.order-2.mb-0.p-1 Velocidad de Transmisión
+          h5.order-2.mb-0.p-1 Velocidad de transmisión
           .imgicon.order-1
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
           
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         p La velocidad de transmisión determina la capacidad de la red para manejar grandes volúmenes de datos. Esta característica es base para soportar aplicaciones críticas y servicios de alta demanda, como videoconferencias, transferencias de archivos grandes, aplicaciones en la nube y sistemas de gestión empresarial. La velocidad de transmisión se mide en megabits por segundo (Mbps) o gigabits por segundo (Gbps) y debe ser seleccionada en función de las necesidades específicas de la organización.
-      .col-sm-6.col-lg-2.mb-4.mb-lg-0
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0.d-lg-block.d-none
         img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imagen decorativa')
     
     .row.justify-content-center.align-items-center.mrgbt
@@ -42,16 +42,16 @@
       .col-lg-4
         .tarjeta.bg2.brad.p-4.h-100
           .row.justify-content-center.align-items-center
-            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0.d-lg-block.d-none
               img.imgfig(src='@/assets/curso/temas/tema1/img4.svg' alt='AvatarTop')
           p 
             b Aplicaciones críticas: 
-            | identificar las aplicaciones que requieren alta velocidad de transmisión, como sistemas de videoconferencia, aplicaciones de colaboración en tiempo real y servicios de streaming.
+            | identificar las aplicaciones que requieren alta velocidad de transmisión, como sistemas de videoconferencia, aplicaciones de colaboración en tiempo real y servicios de #[em streaming.]
 
       .col-lg-4
         .tarjeta.bg2.brad.p-4.h-100
           .row.justify-content-center.align-items-center
-            .col-sm-6.col-lg-5.mb-4.mb-lg-0
+            .col-sm-6.col-lg-5.mb-4.mb-lg-0.d-lg-block.d-none
               img.imgfig(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
           p 
             b Número de usuarios: 
@@ -89,13 +89,13 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .titulovi.mb-4
-          h5.order-2.mb-0.p-1 Tipo de Cableado
+          h5.order-2.mb-0.p-1 Tipo de cableado
           .imgicon.order-1
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
     p.mb-4 La selección del tipo de cableado es importante para asegurar que la red cumpla con las necesidades de distancia y ancho de banda. Los cables de cobre y fibra óptica son las opciones más comunes, cada una con sus propias ventajas y desventajas.
 
     .titulo-segundo.titseg
-      h4 Cables de Cobre
+      h4 Cables de cobre
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4
@@ -105,7 +105,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img9.svg' alt='Imagen decorativa')
           p
-            b Cat5e:
+            b Cat5e: 
             | ofrece una velocidad de transmisión de hasta 1 Gbps y es adecuado para distancias de hasta 100 metros. Es una opción económica para pequeñas y medianas empresas.
       .col-lg-4.mb-4
         .tarjeta--boton.color-acento-contenido.p-4.h-100
@@ -114,7 +114,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img9.svg' alt='Imagen decorativa')
           p
-            b Cat6:
+            b Cat6: 
             | soporta velocidades de transmisión de hasta 10 Gbps y es adecuado para distancias de hasta 100 metros. Es una opción más robusta y ofrece una mejor protección contra interferencias.
       .col-lg-4
         .tarjeta--boton.color-acento-contenido.p-4.h-100
@@ -123,7 +123,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img9.svg' alt='Imagen decorativa')
           p
-            b Cat6a:
+            b Cat6a: 
             | soporta velocidades de transmisión de hasta 10 Gbps y es adecuado para distancias de hasta 100 metros. Ofrece una mejor protección contra interferencias y es ideal para aplicaciones de alta demanda.
     
     .titulo-segundo.titseg
@@ -156,7 +156,7 @@
         TabsA.color-acento-botones.mb-5
           .tarjeta.brad.p-4(titulo="Distancia")
             p Evaluar la distancia entre los dispositivos y los puntos de terminación. Los cables de cobre son adecuados para distancias cortas y medianas, mientras que la fibra óptica es ideal para largas distancias.
-          .tarjeta.brad.p-4(titulo="Ancho de Banda")
+          .tarjeta.brad.p-4(titulo="Ancho de <br>Banda")
             p Determinar el ancho de banda necesario para soportar las aplicaciones y servicios de la organización. Los cables de cobre ofrecen un ancho de banda limitado, mientras que la fibra óptica ofrece un ancho de banda mucho mayor.
           .tarjeta.brad.p-4(titulo="Interferencias")
             p Considerar el entorno físico y las posibles interferencias electromagnéticas. Los cables de cobre son susceptibles a interferencias, mientras que la fibra óptica es inmune a ellas.
@@ -179,7 +179,7 @@
     .row.justify-content-center.mb-4   
       .col-lg-9.my-lg-0.my-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta")
-          div(titulo="<em>Switche</em> de capa 2")
+          div(titulo="<em>Switches</em> de capa 2")
             p Operan en la capa de enlace de datos del modelo OSI y son adecuados para redes pequeñas y medianas. Proporcionan conectividad básica y gestión de tráfico.
           div(titulo="<em>Switches</em> de capa 3")
             p Operan en la capa de red del modelo OSI y son adecuados para redes grandes y complejas. Proporcionan funcionalidades avanzadas como enrutamiento, calidad de servicio (QoS) y seguridad.
@@ -201,7 +201,7 @@
               .col-lg-8 
                 p 
                   b #[i Routers] de bordes: 
-                  | utilizados para conectar la red interna con redes externas, como Internet. Proporcionan funcionalidades de enrutamiento, seguridad y gestión de tráfico.
+                  | utilizados para conectar la red interna con redes externas, como internet. Proporcionan funcionalidades de enrutamiento, seguridad y gestión de tráfico.
       .col-lg-6.mb-4
         .tarjeta
           .tarjeta.bg3.w-100.p-4
@@ -234,7 +234,7 @@
           .col-lg-11
             p
               b Puntos de acceso PoE: 
-              | proporcionan conectividad inalámbrica y alimentación eléctrica a través del cable Ethernet. Son ideales para dispositivos que requieren alimentación continua, como cámaras de vigilancia y teléfonos IP.
+              | proporcionan conectividad inalámbrica y alimentación eléctrica a través del cable ethernet. Son ideales para dispositivos que requieren alimentación continua, como cámaras de vigilancia y teléfonos IP.
     
 
 
@@ -263,34 +263,34 @@
             td.bg7.fast-bold.h5 #[i Firewalls]
             td 
               p 
-                b #[i Firewalls] de #[i Hardware]: 
+                b #[i Firewalls] de #[i hardware]:  
                 | dispositivos físicos que se instalan en el borde de la red para protegerla contra amenazas externas. Proporcionan funcionalidades de filtrado de paquetes, inspección de estado y prevención de intrusos.
             td 
               p 
-                b #[i Firewalls] de #[i Software]: 
+                b #[i Firewalls] de #[i software]:  
                 | aplicaciones que se instalan en los dispositivos de la red para protegerlos contra amenazas internas y externas. Proporcionan funcionalidades de filtrado de paquetes, inspección de estado y prevención de intrusos.
           tr
             td.bg7.fast-bold.h5 Sistemas de Detección de Intrusos (IDS)
             td
               p 
-                b IDS Basados en Red:
+                b IDS basados en red: 
                 | monitorean el tráfico de la red en busca de actividades sospechosas y alertan a los administradores de posibles intrusiones.
 
             td
               p 
-                b IDS Basados en Host: 
+                b IDS basados en #[em host]: 
                 | monitorean las actividades en los dispositivos individuales en busca de actividades sospechosas y alertan a los administradores de posibles intrusiones.
           
           tr
-            td.bg7.fast-bold.h5 Autenticación de Usuarios
+            td.bg7.fast-bold.h5 Autenticación de usuarios
             td
               p.text-left
-                b Autenticación Multifactor (MFA):
+                b Autenticación multifactor (MFA): 
                 | requiere múltiples formas de autenticación, como contraseñas, tokens de #[i hardware] y biometría, para verificar la identidad de los usuarios.
 
             td
               p
-                b Autenticación Basada en Certificados: 
+                b Autenticación basada en certificados: 
                 | utiliza certificados digitales para verificar la identidad de los usuarios y dispositivos. Proporciona un alto nivel de seguridad y es ideal para redes corporativas.
           
     Separador
@@ -345,7 +345,7 @@
 
 
     .titulo-segundo.titseg
-      h4 Clases de Topologías de Red
+      h4 Clases de topologías de red
     p.mb-4 Las topologías se clasifican de acuerdo con sus características y funcionalidad en varios grupos.
 
 
@@ -356,7 +356,7 @@
             ul.lista-ul
               li
                 i.fas.fa-life-ring
-                | #[b Descripción:] todos los dispositivos están conectados a un punto central, generalmente un hub o un #[i switch].
+                | #[b Descripción:] todos los dispositivos están conectados a un punto central, generalmente un #[em hub] o un #[i switch].
               li
                 i.fas.fa-life-ring
                 | #[b Ventajas:] facilidad de instalación y gestión, aislamiento de problemas.
@@ -427,7 +427,7 @@
         img(src='@/assets/curso/temas/tema1/img24.png' alt='AvatarTop')
     
     .titulo-segundo.titseg
-      h4 Características de las Arquitecturas de Red
+      h4 Características de las arquitecturas de red
   
     .row.bg8.align-items-center.mb-5
       .px-lg-5.px-4
@@ -443,7 +443,7 @@
             .row.justify-content-center
               .col-lg-6.my-2
                 h5.mb-4 Modularidad
-                p La red se divide en módulos que pueden ser fácilmente añadidos, eliminados o modificados según sea necesario La modularidad permite una mayor flexibilidad y adaptabilidad, ya que los cambios en una parte de la red no afectan a otras partes. Esto es especialmente útil en entornos donde la red debe adaptarse rápidamente a nuevas demandas o tecnologías. La modularidad también facilita la gestión y el mantenimiento, ya que los problemas pueden ser aislados y resueltos de manera más eficiente.
+                p La red se divide en módulos que pueden ser fácilmente añadidos, eliminados o modificados según sea necesario. La modularidad permite una mayor flexibilidad y adaptabilidad, ya que los cambios en una parte de la red no afectan a otras partes. Esto es especialmente útil en entornos donde la red debe adaptarse rápidamente a nuevas demandas o tecnologías. La modularidad también facilita la gestión y el mantenimiento, ya que los problemas pueden ser aislados y resueltos de manera más eficiente.
                 
               .col-lg-5.my-2 
                 img.img-a.img-t(src='@/assets/curso/temas/tema1/img26.png', alt='')    
@@ -570,7 +570,7 @@
           .col-2
             img(src='@/assets/curso/temas/tema1/img33.svg' alt='AvatarTop')
         h5  Escalabilidad elástica
-        p La escalabilidad elástica implica la capacidad de la red para ajustar automáticamente sus recursos en respuesta a cambios en la demanda. Esto es común en entornos de cloud computing, donde los recursos pueden ser añadidos o eliminados dinámicamente según sea necesario. La escalabilidad elástica asegura que la red pueda adaptarse rápidamente a cambios en la demanda sin interrupciones en el servicio.
+        p La escalabilidad elástica implica la capacidad de la red para ajustar automáticamente sus recursos en respuesta a cambios en la demanda. Esto es común en entornos de #[em cloud computing], donde los recursos pueden ser añadidos o eliminados dinámicamente según sea necesario. La escalabilidad elástica asegura que la red pueda adaptarse rápidamente a cambios en la demanda sin interrupciones en el servicio.
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -592,7 +592,7 @@
               img(src='@/assets/curso/temas/tema1/img34.svg' alt='AvatarTop')
             .col-lg-10
               p La siguiente figura proporciona una representación visual clara y organizada de cómo el dimensionamiento y la escalabilidad contribuyen a la optimización del rendimiento de la red, asegurando la disponibilidad de recursos, la distribución equitativa del tráfico, la priorización de aplicaciones críticas y la reducción de la latencia.
-      .col-lg-4
+      .col-lg-4.d-lg-block.d-none
         img(src='@/assets/curso/temas/tema1/img35.png' alt='AvatarTop')
 
     

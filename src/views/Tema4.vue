@@ -27,7 +27,7 @@
                 img(src='@/assets/curso/temas/tema4/img3.png', alt='Texto que describa la imagen')
           p 
             b TIA/EIA-568:
-            |  Este estándar, desarrollado por la Telecommunications Industry Association (TIA) y la Electronic Industries Alliance (EIA), define las especificaciones para el cableado de telecomunicaciones en edificios comerciales. Incluye directrices sobre la instalación de cables, conectores y otros componentes de red.
+            |  Este estándar, desarrollado por la #[em Telecommunications Industry Association] (TIA) y la #[em Electronic Industries Alliance] (EIA), define las especificaciones para el cableado de telecomunicaciones en edificios comerciales. Incluye directrices sobre la instalación de cables, conectores y otros componentes de red.
       .col-lg-5.mb-4
         .tarjeta--verde.p-4.h-100
           .row.justify-content-center.mb-3
@@ -120,14 +120,14 @@
           img(src='@/assets/curso/temas/tema4/img10.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg1.w-100
             .p-4
-              h5.text-center Servidores
+              h5.text-center Mejora la gestión del proyecto
               p Los servidores son mostrados con iconos que indican su tipo y función, como servidores de archivos, servidores de correo electrónico, etc.
       .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg1.w-100
             .p-4
-              h5.text-center Cables y conexiones
+              h5.text-center Asegura la consistencia
               p Los cables y conexiones son representados mediante líneas que conectan los diferentes dispositivos. Estas líneas pueden incluir etiquetas que indiquen el tipo de cable (por ejemplo, #[i Ethernet], fibra óptica) y la longitud del cable.
 
     Separador

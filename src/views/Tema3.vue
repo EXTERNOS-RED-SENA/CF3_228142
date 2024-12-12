@@ -62,7 +62,7 @@
             .p-4
               p
                 b Cables y conexiones: 
-                | los cables y conexiones son representados mediante líneas que conectan los diferentes dispositivos. Estas líneas pueden incluir etiquetas que indiquen el tipo de cable (por ejemplo, Ethernet, fibra óptica) y la longitud del cable.
+                | los cables y conexiones son representados mediante líneas que conectan los diferentes dispositivos. Estas líneas pueden incluir etiquetas que indiquen el tipo de cable (por ejemplo, ethernet, fibra óptica) y la longitud del cable.
 
     .titulo-segundo.titseg
       h4 Utilidad de los diagramas físicos

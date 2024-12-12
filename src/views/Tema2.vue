@@ -250,8 +250,8 @@
             .col-3
               figure
                 img(src='@/assets/curso/temas/tema2/img10.svg', alt='Texto que describa la imagen')
-          h5 Control ambiental
-          p Los cuartos de telecomunicaciones deben estar equipados con sistemas de control ambiental, como aire acondicionado y sistemas de ventilación, para mantener una temperatura y humedad adecuadas para los equipos de red.
+          h5 Seguridad
+          p Los cuartos de telecomunicaciones deben estar diseñados para proporcionar un entorno seguro para los equipos de red, incluyendo medidas de seguridad física y lógica.
       .col-lg-4.mb-4
         .tarjeta.bg4.p-4.h-100
           .row.justify-content-center.mb-4
@@ -348,6 +348,12 @@
                   | proporciona interconexión entre los edificios, permitiendo la transmisión de datos, voz y video a largas distancias.
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema2/img16.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .titulovi.mb-4
+          h5.order-2.mb-0.p-1 Características de la distribución y rutas de cableado
+          .imgicon.order-1
+            img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         SlyderF.mb-5(columnas="col-lg-4 col-xl-4")

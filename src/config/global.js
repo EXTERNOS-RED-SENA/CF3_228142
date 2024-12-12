@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Cableado estructurado: diseño e implementación de redes',
     descripcionCurso:
-      'El diseño e implementación de redes de telecomunicaciones es base para la conectividad y eficiencia organizacional. El cableado estructurado, que incluye subsistemas horizontales, vertical y de campus, es importante para soportar servicios de datos, voz y video.',
+      'El diseño e implementación de redes de telecomunicaciones es base para la conectividad y eficiencia organizacional. El cableado estructurado, que incluye subsistema horizontal, vertical y de campus, es importante para soportar servicios de datos, voz y video.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -171,39 +171,32 @@ export default {
   },
   complementario: [
     {
-      tema: 'Cable estructurado',
+      tema: '2. Diseño de infraestructura',
       referencia:
-        'Duarte, L. [@LeonardoDuarte]. (n.d.). Cableado estructurado.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=9G6fxwp9Ix4',
-    },
-    {
-      tema: 'Diseño de infraestructura',
-      referencia:
-        'Hernández, W. H. [@williamhernandezhernandez9380]. (n.d.). Cableado estructurado.',
+        'William Hernández Hernández. (2020, 27 noviembre). Cableado Estructurado [Vídeo]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Y9Od-Tmm688',
     },
     {
-      tema: 'Diagrama y documentación técnica',
+      tema: '1. Análisis y planificación de redes',
       referencia:
-        'Recursos Educativos Digitales SENA, E. [@EcosistemaSENAVirtual]. (n.d.). Conceptos básicos y componentes de una red.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021, 30 marzo). Conceptos básicos y componentes de una red [Vídeo]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=Rr8POxBrOlo&list=PLkc5n6npRWkhW66Y8rGD6IOF2dZUDiApU&index=3',
     },
     {
-      tema: 'Estándares de calidad',
+      tema: '4. Optimización y mejores prácticas',
       referencia:
-        'Recursos Educativos Digitales SENA, E. [@EcosistemaSENAVirtual]. (n.d.-b). Validación de estándares y normatividad vigente.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023a, octubre 30). Gestión de dispositivos de red [Vídeo]. YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=bkxr4xMfNJM&list=PLkc5n6npRWkhW66Y8rGD6IOF2dZUDiApU&index=23',
     },
     {
-      tema: 'Gestión de proyectos',
+      tema: '3. Implementación de redes físicas',
       referencia:
-        'Recursos Educativos Digitales SENA, E. [@EcosistemaSENAVirtual]. (n.d.-b). Gestión de dispositivos de red.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023b, octubre 30). Gestión de recursos tecnológicos [Vídeo]. YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=slz86MF43YE&list=PLkc5n6npRWkhW66Y8rGD6IOF2dZUDiApU&index=27',
