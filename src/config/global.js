@@ -178,6 +178,13 @@ export default {
       link: 'https://www.youtube.com/watch?v=Y9Od-Tmm688',
     },
     {
+      tema: '2. Diseño de infraestructura',
+      referencia:
+        'William Hernández Hernández. (2020, 27 noviembre). Cableado Estructurado [Vídeo]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Y9Od-Tmm688',
+    },
+    {
       tema: '1. Análisis y planificación de redes',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2021, 30 marzo). Conceptos básicos y componentes de una red [Vídeo]. YouTube.',
